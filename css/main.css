@@ -125,7 +125,7 @@ p, li {
 }
 
 a {
-  color: #cccccc;
+  color: #ebecf0;
   text-decoration: none;
   background-color: transparent;
 }
@@ -172,7 +172,7 @@ h3, h4, h5, h6 {
 }
 
 span {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* HEADER STYLES - header, nav */
@@ -405,6 +405,10 @@ footer .social-icons li {
     font-size: 1.25rem;
   }
 
+  h5 {
+    font-size: 1.5rem;
+  }
+
   /* HEADER STYLES */ 
   header .content-wrapper {
     display: flex;
@@ -431,6 +435,12 @@ footer .social-icons li {
 
   header nav ul li {
     font-size: 1rem;
+  }
+
+  .home-title {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
   }
 
   /* CLASS / ID STYLES */
@@ -490,7 +500,252 @@ footer .social-icons li {
     width: 48%;
     padding: 15px 15px;
   }
+
+  #about {
+    padding: 80px 0;
+  }
+
+  .about-content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  #about figure {
+    width: 40%;
+  }
+
+  .about-info h3 {
+    margin: 60px 0;
+  }
+
+  .about-info h4 {
+    text-align: left;
+    margin: 0 0 60px 0;
+  }
+
+  .about-text {
+    margin: 0 0 30px 0;
+  }
+
+  #about span {
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    padding: 100px 0 80px 0;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .contact-info {
+    width: 33%;
+  }
+
+  .contact-info {
+    margin: 80px 0;
+  }
+
+  .contact-title {
+    margin: 0 0 30px 0;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
 }
+
+/* ====== LANDSCAPE TABLETS AND IPAD PRO ====== */
+@media only screen and (min-width:1024px) {
+  .content-wrapper {
+    max-width: 900px;
+  }
+
+  .about-info h3 {
+    font-size: 3.5rem;
+  }
+}
+
+
+/* ====== DESKTOP STYLES ====== */
+@media screen and (min-width: 1200px) {
+  /* BIG PICTURE STYLES */ 
+  .content-wrapper {
+    max-width: 1450px;
+  }
+
+  /* TEXT AND LINK STYLES */
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  .project-link, .language-wrapper p, .tool-wrapper p {
+    font-size: 1rem;
+  }
+
+  /* HEADER STYLES */
+  header {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+
+  header .content-wrapper {
+    justify-content: flex-end;
+  }
+
+  header nav {
+    width: 45%;
+    justify-content: flex-end;
+  }
+
+  nav {
+    margin-bottom: 80px;
+  }
+
+  nav ul li a {
+    padding: 10px 10px;
+  }
+
+  .home-title {
+    max-width: 95%;
+  }
+  
+  .home-title h2 {
+    max-width: 70%;
+  }
+
+  /* CLASS / ID STYLES */
+  #work {
+    padding-top: 80px;
+  }
+
+  .portfolio-header {
+    margin: 0 0 60px 0;
+  }
+
+  .home-portfolio-piece {
+    width: 30%;
+  }
+
+  .project-description {
+    margin: 0 0 30px 0;
+  }
+
+  .project-link {
+    margin: 40px 0 80px 0;
+  }
+
+  #skills {
+    padding: 80px 0;
+  }
+
+  #skills .content-wrapper {
+    max-width: 950px;
+  }
+
+  .skills-header {
+    margin-bottom: 40px;
+  }
+
+  .language-wrapper p, .tool-wrapper p {
+    width: 30%;
+    padding: 15px 0;
+  }
+
+  #about {
+    padding: 100px 0 80px 0;
+  }
+
+  .about-content-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #about figure {
+    width: 30%;
+    margin-top: 15px;
+  }
+
+  .about-info {
+    width: 50%;
+  }
+
+  .about-info h3 {
+    font-size: 3rem;
+    text-align: left;
+    margin: 0;
+  }
+
+  .about-info h4 {
+    font-size: 1.8rem;
+    margin: 30px 0;
+  }
+
+  .about-text {
+    margin: 0 0 30px 0;
+  }
+
+  #about span {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  footer {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  footer .content-wrapper {
+    max-width: 70%;
+  }
+
+  footer .contact-info {
+    margin: 80px 0;
+  }
+
+  .contact-title {
+    margin: 0 0 40px 0;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
+}
+
+
+
 
 
 /* ==========================================================================
